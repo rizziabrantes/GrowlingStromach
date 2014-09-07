@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Growling Stomach</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_atf">All Time Favorites</string>
+    <string name="title_activity_espanya">Espanya</string>
+    <string name="title_activity_dapitan">Dapitan</string>
+    <string name="title_activity_pnoval">Pnoval</string>
+    <string name="title_activity_lacson">Lacson</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_back">Back</string>
+    <string name="title_activity_carpark">Carpark</string>
+    <string name="title_activity_bonchon">Bon Chon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shakeys">Shakeys</string>
+    <string name="title_activity_illars">Illars</string>
+    <string name="title_activity_dt">Dimsum Treats</string>
+    <string name="title_activity_mt">Mang Toots</string>
+    <string name="title_activity_tt">Tokyo Tokyo</string>
+
+</resources>

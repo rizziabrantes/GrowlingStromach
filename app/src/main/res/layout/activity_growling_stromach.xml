@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".USTGrowlingStromach$PlaceholderFragment"
+    android:background="@drawable/sofa">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/banner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:text="ALL-TIME FAVORITES"
+        android:id="@+id/buttonalltime"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff064b22"
+        android:textSize="20dp"
+        android:textStyle="bold|normal"
+        android:onClick="startATF" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="ESPANYA"
+        android:id="@+id/buttonespanya"
+        android:textAlignment="center"
+        android:textColor="#ff064b22"
+        android:textStyle="bold|normal"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttonalltime"
+        android:layout_alignLeft="@+id/buttonalltime"
+        android:layout_alignStart="@+id/buttonalltime"
+        android:onClick="startEspanya"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="LACSON"
+        android:id="@+id/buttonlacson"
+        android:layout_below="@+id/buttonalltime"
+        android:layout_alignRight="@+id/buttonalltime"
+        android:layout_alignEnd="@+id/buttonalltime"
+        android:textAlignment="center"
+        android:textColor="#ff064b22"
+        android:textStyle="bold|normal"
+        android:textSize="20dp"
+        android:onClick="startLacson" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="DAPITAN"
+        android:id="@+id/buttondapitan"
+        android:layout_below="@+id/buttonespanya"
+        android:layout_alignLeft="@+id/buttonespanya"
+        android:layout_alignStart="@+id/buttonespanya"
+        android:textAlignment="center"
+        android:textColor="#ff064b22"
+        android:textStyle="bold|normal"
+        android:textSize="20dp"
+        android:onClick="startDapitan" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="P.NOVAL"
+        android:id="@+id/buttonpnoval"
+        android:layout_below="@+id/buttonlacson"
+        android:layout_alignLeft="@+id/buttonlacson"
+        android:layout_alignStart="@+id/buttonlacson"
+        android:textStyle="bold|normal"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#ff064b22"
+        android:onClick="startPnoval" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:text="C  A  R  P  A  R  K"
+        android:id="@+id/buttoncarpark"
+        android:layout_below="@+id/buttondapitan"
+        android:layout_alignLeft="@+id/buttondapitan"
+        android:layout_alignStart="@+id/buttondapitan"
+        android:textAlignment="center"
+        android:textColor="#ff064b22"
+        android:textSize="20dp"
+        android:textStyle="bold|normal"
+        android:onClick="startCarpark" />
+
+</RelativeLayout>
